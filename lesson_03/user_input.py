@@ -1,4 +1,3 @@
-
 # number_1 = int(input("Enter first number: "))
 # number_2 = float(input("Enter second number: "))
 #
