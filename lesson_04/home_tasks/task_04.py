@@ -19,5 +19,8 @@ removed_elements.append(numbers.pop(7))  # Element at index 7
 # Output the modified list
 print(numbers)
 
+# List of removed items
+print(removed_elements)
+
 # Output the sum of the removed elements
 print(sum(removed_elements))
