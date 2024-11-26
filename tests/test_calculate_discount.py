@@ -10,7 +10,8 @@ def base_price():
     (10, 90),    # 10% הנחה - המחיר 90
     (25, 75),    # 25% הנחה - המחיר 75
     (50, 50),    # 50% הנחה - המחיר 50
-    (30, 60)     # שגיאה
+    (30, 60),    #  שגיאה
+    (-10, 110)
 ])
 def test_calculate_discount(base_price, discount_percent, expected):
     assert calculate_discount(base_price, discount_percent) == expected
